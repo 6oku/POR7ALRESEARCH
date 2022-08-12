@@ -12,9 +12,12 @@
   <link rel="stylesheet" href="./style.css">
   <link href="https://cdn.reflowhq.com/v2/toolkit.min.css" rel="stylesheet">
 </head>
-<body class="js-cursor">
+<body>
+
+  
 <!-- partial:index.partial.html -->
 <main>
+  
 <div class="one">
   <div class="header">
     <p class="date">POR7AL</p>
@@ -37,7 +40,6 @@
         <p>for you, weary traveler</p>
       </a>
       </div>
-    
     </div>
   </div>
   
@@ -78,14 +80,25 @@
 
 <!-- STORE HEADER -->
 <!--o----------------------------------------------o-->
-<div class="four" style="">
-  <div class="item" >
-    <h1>BLESSINGS WITH EVERY PURCHASE!</h1> 
-    <br><br>
+<div class="four">
+  <div class="item">
     
+    <marquee behavior="scroll" direction="left"> <h1 class="">BLESSINGS WITH EVERY PURCHASE! &nbsp; &nbsp; &nbsp; BLESSINGS WITH EVERY PURCHASE! &nbsp; &nbsp; &nbsp; BLESSINGS WITH EVERY PURCHASE!BLESSINGS WITH EVERY PURCHASE! &nbsp; &nbsp; &nbsp; BLESSINGS WITH EVERY PURCHASE! &nbsp; &nbsp; &nbsp; BLESSINGS WITH EVERY PURCHASE!</h1> </marquee>
+    <br><br>
   </div>
+
+  <!-- <div class="item" style="background-color:black; color: white;">
+    <marquee behavior="scroll" direction="Right"><h1 class="">BLESSINGS WITH EVERY PURCHASE! &nbsp; &nbsp; &nbsp; BLESSINGS WITH EVERY PURCHASE! &nbsp; &nbsp; &nbsp; BLESSINGS WITH EVERY PURCHASE!BLESSINGS WITH EVERY PURCHASE! &nbsp; &nbsp; &nbsp; BLESSINGS WITH EVERY PURCHASE! &nbsp; &nbsp; &nbsp; BLESSINGS WITH EVERY PURCHASE!</h1></marquee>
+    <br><br>
+  </div> -->
+
+
 </div>
 
+</div>
+
+
+</div>
 
 
 </div>
@@ -148,6 +161,7 @@
 <!-- FOOTER -->
   <div class="five">
     <div class="quote">
+      
       <div data-reflow-type="shopping-cart"></div>
     </div>
     <div class="copy-copy">
@@ -209,23 +223,63 @@
 <!-- scripts -->
 <script src="https://cdn.reflowhq.com/v2/toolkit.min.js" data-reflow-store="439739181" defer></script>  
 <script>
- function wiggleWitIt() {
-     wiggles = document.getElementsByTagName("w");
+document.addEventListener('DOMContentLoaded', _ => {
+  /*
+    Quick whip-up of an idea posed by a client: a bar filled with logo's that move to the left slowly and infinitely.
+    I checked if the <marquee> tag was still working (and it is), but it's considered invalid html now so I needed something else.
+  */
   
-    [...wiggles].forEach((wiggle) => {
-      wiggle.innerHTML = wiggle
-        .innerText
-        .split("")
-        .map((char, index) => {
-          return `<span style='--animation-order: ${index + 1};'>${char}</span>`;
-        })
-        .join("");
-    });
-};
-
-document.addEventListener("DOMContentLoaded", wiggleWitIt());
-
+  const items = [...document.getElementsByClassName('list__item')];
+  const containerElem = document.getElementById('containerElem');
+  const leftSideOfContainer = containerElem.getBoundingClientRect().left;
+  const listElem = document.getElementById('list');
+  let currentLeftValue = 0;
+  
+  // Kick off for the animation function.
+  window.setInterval(animationLoop, 10);
+  // window.requestAnimationFrame(animationLoop, 10);
+  
+  /* 
+    Looks at first item in the list and checks if it goes out of the visible area 
+    by comparing the right position of the first list item to the left position 
+    of the containing element. 
+  */
+  function animationLoop() {
+    const firstListItem = listElem.querySelector('.list__item:first-child');
+    
+    let rightSideOfFirstItem = firstListItem.getBoundingClientRect().right;
+    
+    /* 
+      If first list item is out of viewable area, move it to the end of the list. 
+      Also, set the current left value to -1 so we won't stutter.
+    */
+    if(rightSideOfFirstItem == leftSideOfContainer){
+      currentLeftValue = -1;
+      listElem.appendChild(firstListItem);
+    }
+    
+    // The part that keeps it all going: animating the margin left value of the list.
+    listElem.style.marginLeft = `${currentLeftValue}px`;
+    currentLeftValue-=.1;
+  }
+});
 </script>
+
+<script>
+  $(document).ready(function(){ 
+      $(window).scroll(function(){ 
+          if ($(this).scrollTop() > 100) { 
+              $('#scroll').fadeIn(); 
+          } else { 
+              $('#scroll').fadeOut(); 
+          } 
+      }); 
+      $('#scroll').click(function(){ 
+          $("html, body").animate({ scrollTop: 0 }, 600); 
+          return false; 
+      }); 
+  });
+    </script>
 
 </body>
 </html>
