@@ -1,0 +1,218 @@
+@font-face {
+  font-family: 'junicodeitaliccondensed';
+  src: url('junicode-italiccondensed-webfont.eot');
+  src: url('junicode-italiccondensed-webfont.eot?#iefix') format('embedded-opentype'),
+       url('junicode-italiccondensed-webfont.woff2') format('woff2'),
+       url('junicode-italiccondensed-webfont.woff') format('woff'),
+       url('junicode-italiccondensed-webfont.ttf') format('truetype'),
+       url('junicode-italiccondensed-webfont.svg#junicodeitaliccondensed') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'junicoderegularcondensed';
+  src: url('junicode-regularcondensed-webfont.eot');
+  src: url('junicode-regularcondensed-webfont.eot?#iefix') format('embedded-opentype'),
+       url('junicode-regularcondensed-webfont.woff2') format('woff2'),
+       url('junicode-regularcondensed-webfont.woff') format('woff'),
+       url('junicode-regularcondensed-webfont.ttf') format('truetype'),
+       url('junicode-regularcondensed-webfont.svg#junicoderegularcondensed') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  background: black;
+  color: white;
+}
+
+main {
+  position: relative;
+}
+
+svg {
+  width: 100%;
+}
+
+p, h1, h2 {
+  margin-block: 0px;
+}
+
+a{
+  font-family:sans-serif;
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-shadow: 1px 1px 5px #ffffff;
+  position:;
+}
+
+.juni{
+  font-family: 'junicodeitaliccondensed';
+  font-style: italic;
+}
+
+.one {
+  box-sizing: border-box;
+  padding: 1vw;
+  min-height: 50vh;
+  position: sticky;
+  width: 100%;
+  top: 0px;
+}
+.one .header {
+  display: flex;
+  width: 100%;
+  position: relative;
+  border-bottom: 1px solid white;
+}
+.one .header .date {
+  font-size: 5vw;
+  margin-right: 40px;
+  flex-shrink: 0;
+}
+.one .header .blurbs {
+  padding: 0.5em;
+  position: relative;
+  box-sizing: border-box;
+  font-size: 1vw;
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-between;
+}
+.one .header .blurbs div {
+  width: 33%;
+}
+.one h1 {
+  width: 100%;
+  text-align: center;
+  font-size: 18vw;
+  font-weight: normal;
+  margin-bottom: 20vh;
+}
+
+.two {
+  position: sticky;
+  top: 0px;
+}
+
+.three {
+  position: sticky;
+  top: 0px;
+  margin-top: -10px;
+}
+
+.four {
+  margin-top: -10px;
+  position: sticky;
+  top: 0px;
+  min-height: 120vh;
+  background: white;
+  color: black;
+  display: flex;
+  flex-direction: column;
+}
+.four .item {
+  border-bottom: 1px solid black;
+  display: flex;
+}
+.four .item:hover {
+  background-color: black;
+  color: white;
+}
+.four .item:hover .meta {
+  border-color: white;
+}
+.four .item .meta {
+  padding: 3px;
+  width: fit-content;
+  border-right: 1px solid black;
+}
+.four .item .meta .title {
+  font-size: 30px;
+  text-transform: uppercase;
+  display: inline;
+}
+.four .item .meta .sub {
+  font-style: italic;
+  font-size: 30px;
+}
+.four .item .meta .type {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.four .item .credits {
+  padding: 4px;
+  padding-right: 8px;
+  display: flex;
+  flex-grow: 1;
+  align-items: end;
+  justify-content: flex-end;
+}
+.four .item .credits p {
+  bottom: 0px;
+}
+
+.five {
+  margin-top: -10px;
+  position: sticky;
+  top: 0px;
+  min-height: 100vh;
+  background: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 18px;
+}
+.five .quote {
+  box-sizing: border-box;
+  text-align: center;
+  border: 8px solid #619DD2;
+  color: #619DD2;
+  font-size: 5vw;
+}
+.five .quote h2 {
+  font-weight: normal;
+  margin-block: 80px;
+}
+.five .copy-copy {
+  display: flex;
+  margin-top: 20px;
+  opacity: 0.7;
+}
+.five .copy-copy div {
+  box-sizing: border-box;
+  width: 50%;
+  font-weight: light;
+  line-height: 1.2;
+}
+.five .footer {
+  width: 100%;
+  display: flex;
+}
+.five .footer div {
+  width: 25%;
+  font-size: 2.4vw;
+  text-align: center;
+  padding: 2vw;
+  border-right: 1px solid white;
+}
+.five .footer div:last-child {
+  border-right: none;
+}
+
