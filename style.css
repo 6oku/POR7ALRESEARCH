@@ -161,7 +161,7 @@ a:hover {
   padding-right: 8px;
   display: flex;
   flex-grow: 1;
-  align-items: end;
+  align-items: center
   justify-content: flex-end;
 }
 .four .item .credits p {
@@ -177,14 +177,14 @@ a:hover {
   color: white;
   display: flex;
   flex-direction: column;
-  padding: 18px;
+  padding: 20px;
 }
 .five .quote {
   box-sizing: border-box;
   text-align: center;
-  border: 8px solid #619DD2;
-  color: #619DD2;
-  font-size: 5vw;
+  border: 4px solid #ffffff;
+  color: RED;
+  font-size: 3vw;
 }
 .five .quote h2 {
   font-weight: normal;
