@@ -119,11 +119,19 @@ opacity:70%;
 .juni{
   font-family: 'junicodeitaliccondensed';
   font-style: italic;
+  color: white;
+
 }
 
 .juni:hover{
-
+  color: black;
+	text-shadow:
+		-2px -2px 0 white,
+		2px -2px 0 white,
+		-2px 2px 0 white,
+		2px 2px 0 white;
 }
+
 
 w span {
   display:inline-block;
