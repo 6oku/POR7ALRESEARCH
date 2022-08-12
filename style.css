@@ -121,7 +121,7 @@ a:hover {
   margin-top: -10px;
   position: sticky;
   top: 0px;
-  min-height: 120vh;
+  min-height: 50vh;
   background: white;
   color: black;
   display: flex;
