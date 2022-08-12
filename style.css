@@ -103,7 +103,7 @@ a:hover {
   text-align: center;
   font-size: 18vw;
   font-weight: normal;
-  margin-bottom: 20vh;
+  margin-bottom: 40vh;
 }
 
 .two {
@@ -161,8 +161,7 @@ a:hover {
   padding-right: 8px;
   display: flex;
   flex-grow: 1;
-  align-items: center
-  justify-content: flex-end;
+  justify-content:flex-end;
 }
 .four .item .credits p {
   bottom: 0px;
@@ -200,6 +199,7 @@ a:hover {
   width: 50%;
   font-weight: light;
   line-height: 1.2;
+  margin: 50px;
 }
 .five .footer {
   width: 100%;
@@ -216,3 +216,9 @@ a:hover {
   border-right: none;
 }
 
+.six {
+  position: sticky;
+  top: 0px;
+  margin-top: -10px;
+
+}
