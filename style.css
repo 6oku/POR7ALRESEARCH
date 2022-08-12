@@ -26,11 +26,12 @@
 
 
 
-
 body, html {
+  cursor: url("cursor.ico"), default;
   height: 100%;
   margin: 0;
   padding: 0;
+  
 }
 
 body {
@@ -50,6 +51,7 @@ svg {
 p, h1, h2 {
   margin-block: 0px;
 }
+
 
 a{
   font-family:sans-serif;
@@ -139,10 +141,12 @@ a:hover {
   border-color: white;
 }
 .four .item .meta {
-  padding: 3px;
+  padding: 6px;
   width: fit-content;
   border-right: 1px solid black;
+  border-left: 1px solid black;
 }
+
 .four .item .meta .title {
   font-size: 30px;
   text-transform: uppercase;
@@ -167,6 +171,16 @@ a:hover {
 .four .item .credits p {
   bottom: 0px;
 }
+
+.four h1 {
+  width: 100%;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 4vw;
+  font-weight: normal;
+  margin-bottom:0;
+}
+
 
 .five {
   margin-top: -10px;
@@ -197,9 +211,10 @@ a:hover {
 }
 .five .copy-copy div {
   box-sizing: border-box;
-  width: 50%;
+  width: 100%;
   font-weight: light;
   line-height: 1.2;
+  text-align: center;
   margin: 50px;
 }
 .five .footer {
@@ -223,3 +238,5 @@ a:hover {
   margin-top: -10px;
 
 }
+
+.
