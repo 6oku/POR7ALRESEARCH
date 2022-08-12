@@ -161,6 +161,7 @@ a:hover {
   padding-right: 8px;
   display: flex;
   flex-grow: 1;
+  align-items: end;
   justify-content:flex-end;
 }
 .four .item .credits p {
