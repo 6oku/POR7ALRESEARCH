@@ -88,7 +88,7 @@ a:hover {
 pre {
   display: fixed;
   font-family: monospace;
-  font-size: 10px;
+  font-size: 8px;
   align-items: left;
   justify-content: left;
   white-space: pre;
@@ -197,7 +197,7 @@ w span {
   margin-top: -10px;
   position: sticky;
   top: 0px;
-  min-height: 150vh;
+  min-height: 50vh;
   background: white;
   color: black;
   display: flex;
@@ -374,7 +374,7 @@ w span {
   margin-top: -10px;
   position: sticky;
   top: 0px;
-  min-height: 35vh;
+  min-height: 25vh;
   background: white;
   color: black;
   display: flex;
