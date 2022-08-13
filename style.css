@@ -321,9 +321,8 @@ w span {
 
 .six {
   position: sticky;
-  top: 0px;
+  top: 10px;
   margin-top: -10px;
-  min-height: 10vh;
 }
 
 *{ box-sizing: border-box; }
