@@ -177,6 +177,7 @@ w span {
   border-top: 1px solid black;
   margin-top: -10px;
   margin-bottom: 45px;
+
   position:relative;
   top: 0px;
   min-height: 100vh;
@@ -320,7 +321,7 @@ w span {
   margin-top: -10px;
   position: sticky;
   top: 0px;
-  min-height: 30vh;
+  min-height: 40vh;
   background: white;
   color: black;
   display: flex;
