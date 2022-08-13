@@ -176,6 +176,7 @@ w span {
 .four {
   border-top: 1px solid black;
   margin-top: -10px;
+  margin-bottom: 45px;
   position:relative;
   top: 0px;
   min-height: 100vh;
