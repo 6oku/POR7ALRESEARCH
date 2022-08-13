@@ -178,7 +178,7 @@ w span {
   margin-top: -10px;
   position: sticky;
   top: 0px;
-  min-height: 60vh;
+  min-height: 120vh;
   background: white;
   color: black;
   display: flex;
