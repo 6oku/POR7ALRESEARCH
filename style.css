@@ -197,7 +197,7 @@ w span {
   margin-top: -10px;
   position: sticky;
   top: 0px;
-  min-height: 50vh;
+  min-height: 60vh;
   background: white;
   color: black;
   display: flex;
@@ -323,7 +323,7 @@ w span {
   position: sticky;
   top: 0px;
   margin-top: -10px;
-
+  min-height: 10vh;
 }
 
 *{ box-sizing: border-box; }
@@ -374,7 +374,7 @@ w span {
   margin-top: -10px;
   position: sticky;
   top: 0px;
-  min-height: 25vh;
+  min-height: 35vh;
   background: white;
   color: black;
   display: flex;
