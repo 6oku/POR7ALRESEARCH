@@ -27,14 +27,6 @@ To clone and run this application, you'll need [Git](https://git-scm.com).
 # Clone this repository
 $ git clone https://github.com/6oku/POR7ALreseach
 
-# Go into the repository
-$ cd electron-markdownify
-
-# Install dependencies
-$ npm install
-
-# Run the app
-$ npm start
 ```
 
 > **Note**
