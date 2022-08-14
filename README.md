@@ -18,16 +18,10 @@ Visions of a secret realm. Immortal traveler.</h4>
 
 
 
-
 ## How To Use
 
 To clone and run this application, you'll need [Git](https://git-scm.com).
 
-```bash
-# Clone this repository
-$ git clone https://github.com/6oku/POR7ALreseach
-
-```
 
 > **Note**
 > Special Thanks to https://www.ryanscheuer.com/ for the Spiritually Engineered SVG Masks
@@ -36,9 +30,9 @@ $ git clone https://github.com/6oku/POR7ALreseach
 
 ## Credits
 
-This software uses the following open source packages:
+This software uses the following packages:
 
-[- [Electron](http://electron.atom.io/)](https://reflowhq.com/)
+[- [Reflow.hq]](https://reflowhq.com/)
 
 ---
 
