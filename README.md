@@ -15,7 +15,8 @@ Visions of a secret realm. Immortal traveler.</h4>
 </p>
 
 
-![Desktop 2022 08 14 - 12 28 54 03](https://user-images.githubusercontent.com/78567717/184550284-ca39891e-c723-4dec-b87d-c0a3668f3831.gif)
+
+
 
 
 ## How To Use
