@@ -1,13 +1,10 @@
 # POR7AL RESEARCH 
 
-
-![por7al](https://user-images.githubusercontent.com/78567717/184549542-bdcc0fc5-8fb4-4f1b-9682-3e7b93ddea14.JPG)
-
+![por7alresearch](https://user-images.githubusercontent.com/78567717/184549601-5f39cdde-f300-41f2-acad-5e350a7d6f2f.JPG)
 
 <h1 align="center">
-  <br>
-  <a href="http://www.amitmerchant.com/electron-markdownify"><img src="https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/app/img/markdownify.png" alt="Markdownify" width="200"></a>
-  <br>
+
+![por7alresearch](https://user-images.githubusercontent.com/78567717/184549601-5f39cdde-f300-41f2-acad-5e350a7d6f2f.JPG)
   POR7AL RESEARCH 
   <br>
 </h1>
