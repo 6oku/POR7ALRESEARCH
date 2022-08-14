@@ -3,7 +3,7 @@
 <h1 align="center">
 
 ![por7alresearch](https://user-images.githubusercontent.com/78567717/184549601-5f39cdde-f300-41f2-acad-5e350a7d6f2f.JPG)
-  POR7AL RESEARCH 
+  POR7AL RESEARCH WEBSTORE TEMPLATE
   <br>
 </h1>
 
@@ -25,7 +25,7 @@ Visions of a secret realm. Immortal traveler.</h4>
 </p>
 
 <p align="center">
-  <a href="#key-features">SVG </a> •
+  <a href="https://portal-6oku.vercel.app/">VISIT THE SITE</a> •
 </p>
 
 ![screenshot](https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/app/img/markdownify.gif)
@@ -89,6 +89,5 @@ This software uses the following open source packages:
 ---
 
 > [Instagram](https://www.instagram.com/spiritglocks/?hl=en) &nbsp;&middot;&nbsp;
-> GitHub [@amitmerchant1990](https://github.com/amitmerchant1990) &nbsp;&middot;&nbsp;
-> Twitter [@amit_merchant](https://twitter.com/amit_merchant)
+> GitHub [@6oku](https://github.com/6oku) &nbsp;&middot;&nbsp;
 
