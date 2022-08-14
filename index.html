@@ -13,9 +13,8 @@
   <link href="https://cdn.reflowhq.com/v2/toolkit.min.css" rel="stylesheet">
 </head>
 <body>
-
   
-<!-- partial:index.partial.html -->
+<!-- MAIN-->
 <main>
   
 <div class="one">
@@ -78,7 +77,7 @@
 </div>
   
 
-<!-- STORE TICKERHEADER -->
+<!-- TICKER HEADER -->
 <!--o----------------------------------------------o-->
 <div class="tickerbox">
   <div class="item">
@@ -95,6 +94,9 @@
 
 </div>
 
+
+
+<!-- STORE ITEMS -->
 <div class="four">
 
   <div class="item">
@@ -129,51 +131,19 @@
       <div data-reflow-type="product" data-reflow-product="9183491"></div>
     </div>
     <div class="credits">
-      <p>This legendary description box</p></div>
+      <ul>
+        <p>This legendary description box</p>
+        <br>
+        <li>Product Details</li>
+        <li>MADE IN USA</li>
+        <li>etc</li>
+      </ul>
+    </div>
   </div>
 
 
 </div>
 
-
-<!-- ITEM1 -->
-<!-- <div class="four">
-
-  <div class="item">
-    <div class="meta">
-      <p class="title">OTHER MERCH,</p> <span class="sub">Swag (Hooded)</span> <span class="type">2020</span>
-      <br><br>
-      <div data-reflow-type="product" data-reflow-product="725936150"></div>
-    </div>
-    <div class="credits">
-      <ul>
-        <li>14 oz Heavy Fleece Hooded Swag</li>
-        <li>100% Cotton</li>
-        <li>MADE IN USA</li>
-        <li>Designed by Spiritglocks</li>
-      </ul></div>
-  </div>
-
-
-</div> -->
-
-<!-- ITEM2 -->
-<!-- <div class="four">
-
-    
-    
-  <div class="item">
-    <div class="meta">
-      <p class="title">MIAH SUMMERS,</p> <span class="sub">Icarus's Landing</span> <span class="type">2022</span>
-      <br><br>
-      <div data-reflow-type="product" data-reflow-product="376177281"></div>
-    </div>
-    <div class="credits">
-      <p>This legendary description box</p></div>
-  </div>
-
-
-</div> -->
 
 <!--o----------------------------------------------o-->
 
@@ -272,6 +242,7 @@
       </pre> -->
   </div>
 </main>
+
 <!-- scripts -->
 <script src="https://cdn.reflowhq.com/v2/toolkit.min.js" data-reflow-store="439739181" defer></script>  
 <script>
@@ -315,24 +286,6 @@ document.addEventListener('DOMContentLoaded', _ => {
     currentLeftValue-=.1;
   }
 });
-</script>
-
-
-
-<script>
-  $(document).ready(function(){ 
-      $(window).scroll(function(){ 
-          if ($(this).scrollTop() > 100) { 
-              $('#scroll').fadeIn(); 
-          } else { 
-              $('#scroll').fadeOut(); 
-          } 
-      }); 
-      $('#scroll').click(function(){ 
-          $("html, body").animate({ scrollTop: 0 }, 600); 
-          return false; 
-      }); 
-  });
 </script>
 
 </body>
