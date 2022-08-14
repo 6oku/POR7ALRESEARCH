@@ -18,7 +18,7 @@ Visions of a secret realm. Immortal traveler.</h4>
 
 
 
-## How To Use
+## Use This Template
 
 To clone and run this application, you'll need [Git](https://git-scm.com).
 
